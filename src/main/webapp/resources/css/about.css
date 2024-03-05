@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #FFFBFB;
+}
+
+h1{
+  margin-top: 30px;
+}
+
+header{
+  background: #04AE2A;
+border-radius: 12px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+header a{
+  color: #fff;
+  text-decoration: none;
+}
+
+section{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.title{
+  margin-top: 50px;
+  text-align: left;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 1.375rem 1.75rem;
+  font-size: 2rem;
+  margin-top: 3rem;
+}

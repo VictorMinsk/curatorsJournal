@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #FFFBFB;
+}
+
+h1{
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+  text-align: left;
+}
+
+header{
+  background: #04AE2A;
+border-radius: 12px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+header a{
+  color: #fff;
+  text-decoration: none;
+}
+
+section{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title{
+  margin-top: 50px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.form-error{
+  font-size: 2rem;
+  color: #c00;
+}
+
+.btn {
+  padding: 0.375rem 0.75rem;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+
+.toggle-button {
+ position: relative;
+ display: inline-block;
+ width: 100px;
+ height: 50px;
+ margin: 0;
+ vertical-align: top;
+ background: #ffffff;
+ border: 1px solid #bbc1e1;
+ border-radius: 30px;
+ outline: none;
+ cursor: pointer;
+ -webkit-appearance: none;
+ -moz-appearance: none;
+ appearance: none;
+}
+
+.toggle-button::after {
+  content: "";
+
+  display: inline-block;
+  position: absolute;
+  left: 3px;
+  top: 1.5px;
+
+  width: 45px;
+  height: 45px;
+  background-color: blue;
+  border-radius: 50%;
+
+  transform: translateX(0);
+}
+
+.toggle-button:checked::after {
+  transform: translateX(calc(100% + 3px));
+  background-color: #fff;  
+}
+.toggle-button:checked {
+  background-color: blue;
+}
